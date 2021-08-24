@@ -1,19 +1,24 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
-    background-color: red;
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
-#nav-item-left{
-    background-color: blue;
+#navbar-brand img{
+    width: 100px;
 }
-
 .nav-item{
     display: flex;
     list-style-type: none;
+    align-items: center;
 }
-
+#nav-item-left{
+    display: flex;
+}
 .nav-item-list{
     margin: 0 5px;
 }
@@ -23,6 +28,30 @@ header{
     text-decoration: none;
 }
 
-#nav-item-right{
-    background-color: yellow;
+.nav-item-link button{
+    background-color: #41AA5E;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 900;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- 
+HEADING START
+
+*/
+
+#section2{
+    padding-top: 100px;
+}
+
+#section2 h1{
+    font-size: 60px;
+}
+
+#heading{
+    background-color: chocolate;
+    width: 50%;
+    padding: 10px;
 }
