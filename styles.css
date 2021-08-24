@@ -1,0 +1,14 @@
+header{
+    background-color: red;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-item-left{
+    background-color: blue;
+}
+
+#nav-item-right{
+    background-color: yellow;
+}
